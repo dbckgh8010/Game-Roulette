@@ -442,7 +442,3 @@ mapBtns.forEach(button => {
         }
     });
 });
-
-button.addEventListener('click', () => {
-    button.
-})
