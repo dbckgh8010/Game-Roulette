@@ -207,7 +207,7 @@ function shuffle(array) {
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
     return shuffled;
-}
+};
 const shuffledWeapons = shuffle(weapons);
 const shuffledBans = shuffle(bans);
 
@@ -385,7 +385,7 @@ function getRandomNumbers(count) {
         }
     }
     return numbers;
-}
+};
 
 // 빙고판 초기화 및 이벤트 연결 함수
 function initBingoBoards() {
@@ -417,7 +417,7 @@ function initBingoBoards() {
             targetButton.classList.toggle('is-active');
         });
     });
-}
+};
 
 // 페이지 로드 완료 시 실행
 window.addEventListener('DOMContentLoaded', initBingoBoards);
